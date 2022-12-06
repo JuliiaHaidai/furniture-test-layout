@@ -1,0 +1,99 @@
+@import "fonts.css";
+html,
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button,
+a {
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Proxima Nova", "Arial", "sant-serif";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  color: #1e2e36;
+}
+
+.container {
+  padding: 0 51px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: #44c697;
+  color: #ffffff;
+  height: 51px;
+  padding: 0 46px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 60px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  background-color: #44c697;
+  z-index: -1;
+  bottom: 7px;
+  margin-left: -5px;
+}
+@media (min-width: 1920px) {
+  body {
+    overflow-x: hidden;
+  }
+}

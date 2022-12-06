@@ -1,0 +1,131 @@
+@media (max-width: 1800px) {
+  .container {
+    max-width: 1320px;
+    padding: 0 41px;
+  }
+  .btn {
+    padding: 0 36px;
+  }
+  .goods__menu {
+    font-size: 16px;
+  }
+  .menu__item {
+    font-size: 16px;
+  }
+  .logo img {
+    width: 75px;
+  }
+  .logo__title {
+    font-size: 24px;
+  }
+  .benefits__item-img {
+    width: 403px;
+  }
+  .good__img {
+    width: 403px;
+  }
+  .about__img {
+    width: 850px;
+    margin-top: -50px;
+  }
+  .about__text {
+    font-size: 16px;
+    margin-top: 50px;
+    min-width: 790px;
+  }
+  .benefits__item-title {
+    font-size: 28px;
+  }
+  .good__description {
+    font-size: 20px;
+  }
+  .questions__img {
+    width: 1200px;
+  }
+  .questions__form {
+    margin-left: -290px;
+    min-width: 480px;
+  }
+  .footer__info-inner {
+    padding-left: 30px;
+  }
+  .footer__up-btn {
+    left: 2px;
+  }
+  .footer__categories {
+    font-size: 16px;
+  }
+  .footer__summary {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+  .contacts {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header__down-inner {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px;
+  }
+  .header__btns {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: flex-end;
+  }
+  .top-slider__novelty {
+    margin: 50px 0;
+    font-size: 58px;
+    line-height: 58px;
+  }
+  .top-slider__text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .top-slider__number {
+    margin-bottom: 90px;
+  }
+  .slick-arrow {
+    bottom: 55px;
+  }
+  .benefits__item-img {
+    width: calc(100% - 30px);
+  }
+  .category__item-img {
+    width: 90px;
+  }
+  .catedory__goods {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .good__img {
+    width: 100%;
+  }
+  .about__img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: -60%;
+  }
+  .about__text {
+    min-width: 600px;
+    margin-top: 0;
+  }
+  .questions__form {
+    position: absolute;
+    margin: 0;
+    width: min-content;
+    right: 0;
+  }
+  .questions__img {
+    width: 100%;
+  }
+  .footer__info {
+    width: 70vw;
+  }
+}
+@media (max-width: 1024px) {
+   
+}
